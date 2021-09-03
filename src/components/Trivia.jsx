@@ -28,7 +28,7 @@ export default function Trivia({
     waitPlay();
   }, [waitPlay]);
 
-  useEffect(() => stop, [waitPlay]);
+  useEffect(() => stop, [waitPlay, stop]);
 
   useEffect(() => {
     setQuestion(data[questionNumber - 1]);
