@@ -52,8 +52,13 @@ export default function Trivia({
         setIsDisabled(false);
         correctAnswer();
         delay(1000, () => {
-          setQuestionNumber((prev) => prev + 1);
-          setSelectedAnswer(null);
+          if (questionNumber !== 15) {
+            setQuestionNumber((prev) => prev + 1);
+            setSelectedAnswer(null);
+          } else {
+            stop();
+            setStop(true);
+          }
         });
       } else {
         delay(

@@ -18,51 +18,28 @@ function shuffle(array) {
 export const data = [
   {
     id: 1,
-    question:
-      "Real Madrid  là một câu lạc bộ bóng đá chuyên nghiệp của Tây Ban Nha có trụ sở tại",
+    question: "Đâu là tên một loại bánh Huế?",
     answers: shuffle([
       {
-        text: "Marid",
+        text: "Khoái",
         correct: true,
       },
       {
-        text: "Marib",
+        text: "Sướng",
         correct: false,
       },
       {
-        text: "Argentina",
+        text: "Thích",
         correct: false,
       },
       {
-        text: "Hà Nội",
+        text: "Vui",
         correct: false,
       },
     ]),
   },
   {
     id: 2,
-    question: "2 họng súng xuất sắc nhất Real trong 10 năm qua là",
-    answers: shuffle([
-      {
-        text: "Ronaldo và Benzema",
-        correct: true,
-      },
-      {
-        text: "Ronaldo và Figo",
-        correct: false,
-      },
-      {
-        text: "Ronaldo và Messi",
-        correct: false,
-      },
-      {
-        text: "Ronaldinho và Benzema",
-        correct: false,
-      },
-    ]),
-  },
-  {
-    id: 3,
     question:
       "CLB đã chi nhiều tiền nhất trong kì chuyển nhượng hè 2020 - 2021?",
     answers: shuffle([
@@ -85,31 +62,52 @@ export const data = [
     ]),
   },
   {
-    id: 4,
-    question:
-      "Một trong những cầu thủ xuất sắc của châu Á đang thi đấu ở ngoại hạng anh?",
+    id: 3,
+    question: "Trong các cây cầu sau, cầu nào là cầu xoay?",
     answers: shuffle([
       {
-        text: "Đặng Văn Lâm",
+        text: "Cầu Thanh Trì",
         correct: false,
       },
       {
-        text: "Son Heung-min",
+        text: "Cầu Thị Nại",
+        correct: false,
+      },
+      {
+        text: "Cầu Sông Hàn",
         correct: true,
       },
       {
-        text: "Harry Kane",
+        text: "Cầu Cần Thơ",
+        correct: false,
+      },
+    ]),
+  },
+  {
+    id: 4,
+    question: "CLB được FIFA bình chọn là CLB xuất sắc nhất thế kỷ 20",
+    answers: shuffle([
+      {
+        text: "Real Madrid",
+        correct: true,
+      },
+      {
+        text: "Barcelona",
         correct: false,
       },
       {
-        text: "Theo Hernandez",
+        text: "PSG",
+        correct: false,
+      },
+      {
+        text: "Bayern",
         correct: false,
       },
     ]),
   },
   {
     id: 5,
-    question: "Ai từng là đội trưởng của Real Marid?",
+    question: "Ai đã từng là đội trưởng của Real Marid?",
     answers: shuffle([
       {
         text: "Sergio Ramos",
@@ -153,28 +151,6 @@ export const data = [
   },
   {
     id: 7,
-    question: "Haiku là thể thơ truyền thống của nước nào?",
-    answers: shuffle([
-      {
-        text: "Nhật Bản",
-        correct: true,
-      },
-      {
-        text: "Mông Cổ",
-        correct: false,
-      },
-      {
-        text: "Trung Quốc",
-        correct: false,
-      },
-      {
-        text: "Hàn Quốc",
-        correct: false,
-      },
-    ]),
-  },
-  {
-    id: 8,
     question: "Bản hợp đồng chuyển nhượng bom tấn của Real Marid thuộc về?",
     answers: shuffle([
       {
@@ -191,6 +167,28 @@ export const data = [
       },
       {
         text: "Zinedine Zidane",
+        correct: false,
+      },
+    ]),
+  },
+  {
+    id: 8,
+    question: "Haiku là thể thơ truyền thống của nước nào?",
+    answers: shuffle([
+      {
+        text: "Nhật Bản",
+        correct: true,
+      },
+      {
+        text: "Mông Cổ",
+        correct: false,
+      },
+      {
+        text: "Trung Quốc",
+        correct: false,
+      },
+      {
+        text: "Hàn Quốc",
         correct: false,
       },
     ]),
@@ -329,24 +327,23 @@ export const data = [
   },
   {
     id: 15,
-    question:
-      "Nhà văn Kim Dung (Trung Quốc) nổi tiếng với thể loại văn học gì?",
+    question: "Đâu không phải là một tác phẩm của họa sĩ Trần Văn Cẩn?",
     answers: shuffle([
       {
-        text: "Truyện trinh thám",
-        correct: false,
-      },
-      {
-        text: "Tiểu thuyết kiếm hiệp",
+        text: "Đôi bạn",
         correct: true,
       },
       {
-        text: "Sử thi",
+        text: "Mẹ",
         correct: false,
       },
       {
-        text: "Thơ lãng mạn",
-        correct: true,
+        text: "Em Thúy",
+        correct: false,
+      },
+      {
+        text: "Em gái tôi",
+        correct: false,
       },
     ]),
   },
