@@ -6,4 +6,4 @@
 
 Here is some screenshots to show how the app would looks like.
 
-![image](https://github.com/huutoan02/Trivia-Game/blob/main/Demo.png?raw=true)
+![image](https://github.com/huutoan02/Trivia-Game/blob/main/src/assets/demo.png?raw=true)
