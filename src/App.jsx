@@ -41,7 +41,9 @@ function App() {
   }, [moneyPyramid, questionNumber]);
 
   const handleClick = () => {
+    setQuestionNumber(1);
     setStop(false);
+    setEarned("$ 0");
   };
 
   return (
